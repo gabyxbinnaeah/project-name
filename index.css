@@ -1,0 +1,35 @@
+body{
+    background-color: blueviolet;
+}
+main{
+    background-color: cyan;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.counter{
+    text-align: center;
+}
+.header{
+  text-align: center;
+  text-transform: uppercase;
+}
+.counter-display{
+    text-align: center;
+    font-size: 6em;
+    font-weight: bold;
+}
+#btn{
+    margin: 0.5rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0.375rem 0.75rem;
+    font-size: 0.875rem;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+#btn:hover{
+    color: white;
+    background-color: black;
+}
